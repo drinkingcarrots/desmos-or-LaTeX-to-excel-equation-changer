@@ -16,6 +16,8 @@ example:
 
 ((-1)^((n+1)))/(e^(n))
 
+you might need to make sin/cos uppercase manually because i forgot and am lazy as shit.
+
 very useful 👍
 
 download .net6 if it doesnt work or something idk i dont think anyone will actually use this
