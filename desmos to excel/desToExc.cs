@@ -65,6 +65,15 @@ namespace desmos_to_excel
                     {
                         fred = fred.Remove(i, 6);
                     }
+                    else if (fred[i + 1] == 'c')
+                    {
+                        fred = fred.Remove(i, 5);
+                        fred = fred.Insert(i, "*");
+                    }
+                    else if (fred[i + 1] == 's')
+                    {
+                        fred = fred.Remove(i, 1);
+                    }
                     else
                     {
                         fred = fred.Remove(i, 5);
